@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+        <style>
+            body{
+                background-image: url("pexels-photo-1660030.jpeg");
+                background-size: cover;
+            
+                
+            }
+            h2{
+                text-align: center;
+            }
+            form{
+                text-align: center;
+               
+                  
+            }
+            label{
+                color: rgb(0, 81, 255);
+            
+            }
+
+        </style>
+
+    </head>
+    <body >
+        <h2>SURVEY</h2>
+        <form>
+            
+            <label>Name</label>
+            <input type="text" name="name" placeholder="enter your name" pattern="[a-Z]" /> <br><br>
+            <label>Email</label>
+            <input type="email" pattern=".+gmail.com" placeholder="enter your mail id" required/><br><br>
+            <label>Mobile</label>
+            <input type="tel" pattern="[0-9]" placeholder="enter your phone number" required minlength="10/"><br><br>
+            <label>Address</label>
+            <input type="text" placeholder="enter your full adress"><br><br>
+            <label>State</label>
+            <input type="text" placeholder="enter your place"/><br><br>
+            <label>Food Name<label><br><br>
+                <lable>Berger</lable>
+            <input type="radio"/>
+            <label>Pizza</label>
+            <input type="radio"/>
+            <label>Biriyani</label>
+            <input type="radio"/>
+            <label>Sandwich</label>
+            <input type="radio"/><br><br>
+            <label>Food quality</label><br><br>
+            <label>Good</label>
+            <input type="radio"/>
+            <label>Better</label>
+            <input type="radio"/>
+            <label>Best</label>
+            <input type="radio"/>
+            <label>Improve</label>
+            <input type="radio"><br><br>
+            <button>Submit</button>
+            <button>Reset</button>
+        </form>
+
+        
+    </body>
+</html>
